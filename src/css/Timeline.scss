@@ -25,8 +25,8 @@ $border: 1px solid rgba(191, 191, 191, 0);
 $items: 7;
 $rows: ceil($items/2);
 /* TAMANHO DO CARDDDD */
-$card-height: 400px;
-$card-width: 450px;
+$card-height: 440px;
+$card-width: 440px;
 $inner-margin: 15px;
 $number-size: 35px;
 $stagger: 180px;
@@ -64,6 +64,126 @@ $marker-dist: $card-width + $outer-margin/2 - $marker-size/2;
     transform: scale(1.15);
   }
 }
+.demo-card--step2 {
+  img  {
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  &:hover img {
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: ridge;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    /* TAMANHO DOS CARDS NO EFEITO */
+    transform: scale(1.15);
+  }
+}
+.demo-card--step3 {
+  img  {
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  &:hover img {
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: ridge;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    /* TAMANHO DOS CARDS NO EFEITO */
+    transform: scale(1.15);
+  }
+}
+.demo-card--step4 {
+  img  {
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  &:hover img {
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: ridge;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    /* TAMANHO DOS CARDS NO EFEITO */
+    transform: scale(1.15);
+  }
+}
+.demo-card--step5 {
+  img  {
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  &:hover img {
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: ridge;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    /* TAMANHO DOS CARDS NO EFEITO */
+    transform: scale(1.15);
+  }
+}
+.demo-card--step6 {
+  img  {
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  &:hover img {
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: ridge;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    /* TAMANHO DOS CARDS NO EFEITO */
+    transform: scale(1.15);
+  }
+}
+.demo-card--step7 {
+  img  {
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  &:hover img {
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: ridge;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    /* TAMANHO DOS CARDS NO EFEITO */
+    transform: scale(1.15);
+  }
+}
+.demo-card--step8 {
+  img  {
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  &:hover img {
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: ridge;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    /* TAMANHO DOS CARDS NO EFEITO */
+    transform: scale(1.15);
+  }
+}
+
 @include mq-lg {
   %arrow {
     position: absolute;
