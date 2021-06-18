@@ -46,6 +46,7 @@ margin-left: 1vw;
 display: inline-block;
 text-align: center;
 }
+
 section {
   display: flex;
   margin-bottom: -100px;
@@ -55,11 +56,13 @@ section {
 section { 
   padding: 3rem; 
 }
+
 @media (max-width: 639px) {
   blockquote { 
     visibility: hidden;
   }
 }
+
 @media (min-width: 640px) and (max-width: 700px) {
   blockquote.electric {
     margin-left: -2vw;
@@ -80,11 +83,13 @@ section {
     margin-left: 5vw;
   }
 }
+
 @media (min-width: 1001px) and (max-width: 1100px) {
   blockquote.electric {
     margin-left: 6vw;
   }
 }
+
 @media (min-width: 1101px) and (max-width: 1300px) {
   blockquote.electric {
     margin-left: 9vw;
@@ -93,6 +98,7 @@ section {
     margin-left: 2vw;
   }
 }
+
 @media (min-width: 1301px) and (max-width: 1500px) {
   blockquote.electric {
     margin-left: 12vw;
@@ -101,6 +107,7 @@ section {
     margin-left: 1vw;
   }
 }
+
 @media (min-width: 1501px) and (max-width: 1700px) {
   blockquote.electric {
     margin-left: 14vw;
@@ -109,6 +116,7 @@ section {
     margin-left: 0vw;
   }
 }
+
 @media (min-width: 1701px) and (max-width: 1980px) {
   blockquote.electric {
     margin-left: 16.3vw;
