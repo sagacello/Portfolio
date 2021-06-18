@@ -1,23 +1,14 @@
 import React, { Component } from 'react';
-import diploma from '../imagens/diploma.png';
-import cv from '../imagens/cursoemvideo2.jpg';
-import i2a2 from '../imagens/i2a2.jpg';
-import astronauta from '../imagens/astronauta.png';
-import trybe from '../imagens/trybe.jpg';
-
-
 import '../css/Timeline.scss';
 
 class Timeline extends Component {
   render() {
     return (
-      <section id="timeline">
+      <div id="timeline">
         <h1>Linha do tempo</h1>
         <p className="leader">
-          <p>
-            Essa linha do tempo conta um pouco da minha trajetória ,desde a
-            transição de carreira até os dias de hoje.
-          </p>
+            Essa linha do tempo referência meus projetos em ordem de aprendizado
+            com uma escala de 7 meses
         </p>
         <div className="demo-card-wrapper">
           <div className="demo-card demo-card--step1">
@@ -25,18 +16,15 @@ class Timeline extends Component {
               <div className="number-box">
                 <span>01</span>
               </div>
-              <h2>
-                <span className="small">Junho de 2019</span>
-                Perdido
-              </h2>
+              <h2>To-do-list</h2>
             </div>
             <div className="body">
               <p>
-                Mesmo depois de graduado em engenharia química não me via
-                atuando na área, sentia que faltava algo e começei a cogitar uma
-                transição de carreira.
+                Esse projeto simula uma lista de afazeres onde você pode
+                preencher a lista com alguma tarefa que deseja, e ela ficara
+                armazenada mesmo depois de navegar para outra página.
               </p>
-              <img src={diploma} alt="diploma" />
+              <img alt="projeto to-do-list" />
             </div>
           </div>
           <div className="demo-card demo-card--step2">
@@ -45,17 +33,16 @@ class Timeline extends Component {
                 <span>02</span>
               </div>
               <h2>
-                <span className="small">julho de 2019</span>
-                começando
+                <span className="small">Subtitle</span> Confidence
               </h2>
             </div>
             <div className="body">
               <p>
-                Logo me vi estudando programação, tentando aprender um mudo de
-                coisas novas em pouco tempo, iniciei o estudo com o aprendizado
-                de Python assistindo as aulas do incrível Gustavo Guanabara.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+                reiciendis deserunt doloribus consequatur, laudantium odio
+                dolorum laboriosam.
               </p>
-              <img src={cv} alt="curso_em_video" />
+              <img src="http://placehold.it/1000x500" alt="Graphic" />
             </div>
           </div>
           <div className="demo-card demo-card--step3">
@@ -64,18 +51,16 @@ class Timeline extends Component {
                 <span>03</span>
               </div>
               <h2>
-                <span className="small">outubro de 2019</span>
-                Focando
+                <span className="small">Subtitle</span> Adaptation
               </h2>
             </div>
             <div className="body">
               <p>
-                Após alguns meses estudando consegui entrar em um
-                instituto focado no aprendizado de inteligencia artificial,
-                onde aprendi diversas coisas interessantes, com o enfoque
-                maior no funcionamento dos algoritimos de visão computacional.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+                reiciendis deserunt doloribus consequatur, laudantium odio
+                dolorum laboriosam.
               </p>
-              <img src={i2a2} alt="instituto" />
+              <img src="http://placehold.it/1000x500" alt="Graphic" />
             </div>
           </div>
           <div className="demo-card demo-card--step4">
@@ -84,18 +69,16 @@ class Timeline extends Component {
                 <span>04</span>
               </div>
               <h2>
-                <span className="small">julho de 2020</span>
-                Idealizando
+                <span className="small">Subtitle</span> Consistency
               </h2>
             </div>
             <div className="body">
               <p>
-                Terminado os meus estudos no instituto e com um pouco de bagagem 
-                na programação, percebi que faltavam algumas coisas para me tornar um desenvolvedor, 
-                comecei então a procurar cursos com as tecnologias mais utilizadas na atualidade.
-                
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+                reiciendis deserunt doloribus consequatur, laudantium odio
+                dolorum laboriosam.
               </p>
-              <img src={astronauta} alt="voando" />
+              <img src="http://placehold.it/1000x500" alt="Graphic" />
             </div>
           </div>
           <div className="demo-card demo-card--step5">
@@ -104,17 +87,16 @@ class Timeline extends Component {
                 <span>05</span>
               </div>
               <h2>
-                <span className="small">junho de 2020</span>
-                Esperançoso
+                <span className="small">Subtitle</span> Conversion
               </h2>
             </div>
             <div className="body">
               <p>
-                Depois de procurar por um tempo encontrei a Trybe, uma escola de tecnologia com propostas 
-                surpreendentes e inovadoras, e investigando tudo o que era proposto pela escola e
-                tomei a decisão de me inscrever para o processo seletivo.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+                reiciendis deserunt doloribus consequatur, laudantium odio
+                dolorum laboriosam.
               </p>
-              <img src={trybe} alt="trybe" />
+              <img src="http://placehold.it/1000x500" alt="Graphic" />
             </div>
           </div>
           <div className="demo-card demo-card--step6">
@@ -123,15 +105,14 @@ class Timeline extends Component {
                 <span>06</span>
               </div>
               <h2>
-                <span className="small">Agosto de 2020</span> Trajetória
+                <span className="small">Subtitle</span> Conversion
               </h2>
             </div>
             <div className="body">
               <p>
-               Logo iniciei minha jornada na Trybe e 
-               nas primeiras semanas já tinha aprendido diversas coisas, tanto em hard skills 
-               quanto em soft skills e cheguei a conclusão que entrar na trybe foi uma excelente escolha 
-               e o caminho a percorrer é extenso.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+                reiciendis deserunt doloribus consequatur, laudantium odio
+                dolorum laboriosam.
               </p>
               <img src="http://placehold.it/1000x500" alt="Graphic" />
             </div>
@@ -142,18 +123,20 @@ class Timeline extends Component {
                 <span>07</span>
               </div>
               <h2>
-                <span className="small">Abril de 2021</span> Conclusão
+                <span className="small">Subtitle</span> Conversion
               </h2>
             </div>
             <div className="body">
               <p>
-                Após 7 meses de curso, percebi que sou uma pessoa totalmente diferente 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+                reiciendis deserunt doloribus consequatur, laudantium odio
+                dolorum laboriosam.
               </p>
               <img src="http://placehold.it/1000x500" alt="Graphic" />
             </div>
           </div>
         </div>
-      </section>
+      </div>
     );
   }
 }
