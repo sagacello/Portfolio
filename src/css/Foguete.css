@@ -1,0 +1,47 @@
+
+  a,
+  h1,
+  #back-top {
+    color: #f6f6f6;
+    text-decoration: none;
+    font-family:Roboto;
+
+  }
+  
+  .content {
+    width: 75%;
+    margin: 50px auto
+  }
+  
+  #back-top {
+    position: fixed;
+    bottom: 0;
+    left: 0%;
+    z-index: 1000;
+    display: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 1rem
+  }
+  
+  .fly {
+    position: absolute;
+    animation: launch ease-in-out 3s infinite;
+    -webkit-animation: launch ease-in-out 3s infinite
+  }
+  
+  @-webkit-keyframes launch {
+    100% {
+      transform: translateY(-800px) translateX(800px);
+    }
+  }
+  @keyframes launch {
+    100% {
+      transform: translateY(-800px) translateX(800px);
+    }
+  }
+  @media (min-width: 500px) {
+    .content {
+      width: 45%
+    }
+  }
