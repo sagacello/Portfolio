@@ -1,9 +1,13 @@
-$blue: #10101a ;
-
+$blue: #262AFF !important;
+// $blue: #01334b !important;
 $boxShadow: 0px 0px 24px 6px rgba(black, 0.08);
 
 @function gray($color){
   @return rgb($color, $color, $color);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 html,
@@ -16,12 +20,12 @@ body,
   width: 100vw;
 }
 
-body {
+body, #app {
   background-color: $blue;
   
   h1, a {
     color: gray(90);
-    font-family: "Roboto", sans-serif;
+    font-family: 'Audiowide', cursive;
     font-weight: 300;
     margin: 0px;
     padding: 0px;
@@ -45,8 +49,7 @@ body {
     
     &:hover{
       cursor: pointer;
-      // tamanho do icone quando passa o mouse
-      transform: scale(1.2);
+      transform: scale(1.05);
       z-index: 2;
       
       h1{
@@ -66,7 +69,7 @@ body {
     h1{
       background-color: gray(40);
       border-radius: 4px;
-      color: white;
+      color: #E8BF0C;
       font-size: 0.8em;
       font-weight: 700;
       opacity: 0;
@@ -92,11 +95,11 @@ body {
       opacity: 0.6;
       pointer-events: none;
       position: absolute;
-      top: 60%;
+      top: 50%;
       transform: translate(-50%, -50%);
-      
+
       h1{        
-        color: white;
+        color: #E8BF0C;
         font-size: 1em;
       }
     }

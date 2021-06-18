@@ -19,38 +19,26 @@
     @content;
   }
 }
-.rodape2 {
-  background-color: rgba(237, 93, 52, 0.363);
-  margin-bottom: 0%;
-  padding: 0px;
-  margin-top: 100px;
-  text-align: center;
-  font-size: 12px;
-  font-family: 'Courier New', Courier, monospace;
-  color: white;
-}
-
 $background: #12111400; // COR DE FUNDO
-$box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
-$border: 1px solid rgba(191, 191, 191, 0);// borda ao redor do cartao e dividor de pagina
+$box-shadow: #4288A8;
+$border: 1px solid rgba(191, 191, 191, 0);
 $items: 7;
 $rows: ceil($items/2);
 /* TAMANHO DO CARDDDD */
-$card-height: 420px;
-$card-width: 440px;
+$card-height: 400px;
+$card-width: 450px;
 $inner-margin: 15px;
-$number-size: 20px;
+$number-size: 35px;
 $stagger: 180px;
 $outer-margin: 90px;
-$marker-size: 20px;
-
+$marker-size: 9px;
 /* Colors --------------------- cores de fundo dos cards*/ 
-$steps: #12111469;
-$colors: #3c315aa1,
-#3c315aa1,
-#3c315aa1,
-#3c315aa1;
-$timeline: #d9dadd;
+$steps: #04069C;
+$colors: #04069C,
+#04069C,
+#04069C,
+#04069C;
+$timeline: #04069C;
 /* Calculations */
 $container-height: $rows * ($card-height + $outer-margin) + $stagger;
 $container-width: $card-width*2 + $outer-margin*3;
@@ -67,7 +55,7 @@ $marker-dist: $card-width + $outer-margin/2 - $marker-size/2;
   }
 
   &:hover img {
-    border-radius: 1%;
+    border-radius: 5%;
     border-width: 1px;
     border-style: ridge;
     -moz-transform: scale(1.2);
@@ -76,114 +64,6 @@ $marker-dist: $card-width + $outer-margin/2 - $marker-size/2;
     transform: scale(1.15);
   }
 }
-.demo-card--step2 {
-  img  {
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-
-  &:hover img {
-    border-radius: 1%;
-    border-width: 1px;
-    border-style: ridge;
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    /* TAMANHO DOS CARDS NO EFEITO */
-    transform: scale(1.15);
-  }
-}
-
-.demo-card--step3 {
-  img  {
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-
-  &:hover img {
-    border-radius: 1%;
-    border-width: 1px;
-    border-style: ridge;
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    /* TAMANHO DOS CARDS NO EFEITO */
-    transform: scale(1.15);
-  }
-}
-
-.demo-card--step4 {
-  img  {
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-
-  &:hover img {
-    border-radius: 1%;
-    border-width: 1px;
-    border-style: ridge;
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    /* TAMANHO DOS CARDS NO EFEITO */
-    transform: scale(1.15);
-  }
-}
-
-.demo-card--step5 {
-  img  {
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-
-  &:hover img {
-    border-radius: 1%;
-    border-width: 1px;
-    border-style: ridge;
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    /* TAMANHO DOS CARDS NO EFEITO */
-    transform: scale(1.15);
-  }
-}
-
-.demo-card--step6 {
-  img  {
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-
-  &:hover img {
-    border-radius: 1%;
-    border-width: 1px;
-    border-style: ridge;
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    /* TAMANHO DOS CARDS NO EFEITO */
-    transform: scale(1.15);
-  }
-}
-
-.demo-card--step7 {
-  img  {
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-
-  &:hover img {
-    border-radius: 1%;
-    border-width: 1px;
-    border-style: ridge;
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    /* TAMANHO DOS CARDS NO EFEITO */
-    transform: scale(1.15);
-  }
-}
-
 @include mq-lg {
   %arrow {
     position: absolute;
@@ -198,7 +78,7 @@ $marker-dist: $card-width + $outer-margin/2 - $marker-size/2;
     content: "";
     width: $marker-size;
     height: $marker-size;
-    background-color: #fbfbfb;
+    background-color: #E8BF0C;
     border-radius: $marker-size;
     box-shadow: 0px 0px 2px 8px $background;
   }
@@ -223,25 +103,21 @@ body {
   background: $background;
   border-top: $border;
   border-bottom: $border;
-  
   h1 {
+    font-family: 'Arvo', serif;
     text-align: center;
     font-size: 3rem;
     font-weight: 200;
     margin-bottom: 20px;
-    color: #fff;
-    font-family:Roboto;
-
+    color: #E8BF0C;
       }
   p.leader {
+    font-family: 'DM Sans', sans-serif;
     text-align: center;
     max-width: 90%;
-    color: #fff;
+    color: #E8BF0C;
     margin: auto;
     margin-bottom: 45px;
-    font-family:Roboto;
-
-    
   }
   .demo-card-wrapper {
     position: relative;
@@ -252,8 +128,6 @@ body {
       width: $container-width;
       height: $container-height;
       margin: 0 auto;
-      font-family:Roboto;
-
     }
     &::after {
       z-index: 1;
@@ -274,7 +148,6 @@ body {
     margin: 10px auto 80px;
     max-width: 94%;
     z-index: 2;
-    
     @include mq-sm {
       max-width: 60%;
       box-shadow: $box-shadow;
@@ -322,9 +195,8 @@ body {
       position: relative;
       display: flex;
       align-items: center;
-      color: rgb(235, 235, 235);
+      color: #E8BF0C;
       font-weight: 400;
-
       .number-box {
         display: inline;
         float: left;
@@ -333,9 +205,10 @@ body {
         font-size: $number-size;
         line-height: $number-size;
         font-weight: 600;
-        background: rgba(135, 97, 146, 0.287);
+        background: #04069C;
       }
       h2 {
+        font-family: 'Arvo', serif;
         text-transform: uppercase;
         font-size: 1.3rem;
         font-weight: inherit;
@@ -343,8 +216,6 @@ body {
         margin: 0;
         padding-bottom: 6px;
         line-height: 1rem;
-        font-family:Roboto;
-
         @include mq-sm {
           font-size: 165%;
           line-height: 1.2rem;
@@ -360,7 +231,7 @@ body {
       }
     }
     .body {
-      background:#12111400; // corpo cartao
+      background:#0C0FE8;
       border: $border;
       border-top: 0;
       padding: $inner-margin;
@@ -368,8 +239,9 @@ body {
         height: $body-height;
       }
       p {
+        font-family: 'DM Sans', sans-serif;
         font-size: 17px; // TAMANHO DA FONTE DO CARD
-        color: #fff;
+        color: #E8BF0C;
         line-height: 18px;
         margin-bottom: $inner-margin;
       }
@@ -388,5 +260,4 @@ body {
       }
     }
   }
-  
 }

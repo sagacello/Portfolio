@@ -706,10 +706,8 @@ export default class Rodape extends Component {
             </svg>
           </div>
         </section>
-        <footer className="rodape2">
-          <p>
-            Desenvolvido por Marcelo Ivan e Thadeu Castelo Branco
-          </p>
+        <footer id="footer">
+          <p>Desenvolvido por Marcelo Ivan e Thadeu Castelo Branco</p>
         </footer>
       </div>
     );

@@ -7,7 +7,7 @@ $orange: #f57c00;
 $red: #ef5350;
 $cyan: #4dd0e1;
 $pink: #E91E63;
-$black-dark: #10101078;
+$black-dark: #1010109f;
 $black-light: #2c3e508e;
 $bg1: #E91E63;
 $bg2: #9C27B0;
@@ -31,22 +31,13 @@ $monospace: Consolas, "Lucida Console",  monospace;
 
 #contato {
 	position: relative;
- 	display: flex;
+	display: flex;
 	align-items: center;
 	justify-content: center;
- 	width: 100%;
+	width: 100vw;
 	height: 100vh;
- }
-
- #contato h1 {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 200;
-  margin-bottom: 100px;
-  color: #fff;
-  font-family:Roboto;
-  width: 100%;
- }
+	// background: linear-gradient(45deg, $bg1, $bg2);
+}
 
 code {
 	font-family: "Lucida Console", Monaco, monospace;
@@ -55,10 +46,9 @@ code {
 
 .card1 {
 	position: relative;
-	width: 35rem; // tamanho
-	height: 16rem;
-	margin-bottom: 15%;
-	perspective: 150rem; // efeito 3d , quanto menor mais intenso
+	width: 30rem;
+	height: 15rem;
+	perspective: 150rem;
 	&-front,
 	&-back {
 		position: absolute;
@@ -135,8 +125,8 @@ code {
 		margin: 0;
 		padding: 0 10px;
 		background-color: rgba(white,0.03);
-		font-size: 12px; // tamanho numeros
-		line-height: 1.6;
+		font-size: 13px;
+		//line-height: 2.15;
 		> div {
 			padding: 2.5px 0; 
 			opacity: 0.15;
@@ -170,3 +160,4 @@ code {
 		color: $cyan;
 	}
 }
+
