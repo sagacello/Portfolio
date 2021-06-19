@@ -24,6 +24,16 @@
     margin-left: 0vh;
   }
 }
+#projetos h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 200;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+    }
 
 .container body{
   display:flex;

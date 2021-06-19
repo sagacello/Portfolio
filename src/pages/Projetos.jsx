@@ -5,6 +5,7 @@ class App extends Component {
     return (
       <div id="projetos">
         <div class="container">
+        <h1 className="titulo">Projetos</h1>
           <div class="card-projetos">
             <div class="face face1">
               <div class="content-projetos">

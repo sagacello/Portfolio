@@ -20,7 +20,7 @@
   }
 }
 $background: #12111400; // COR DE FUNDO
-$box-shadow: #4288A8;
+$box-shadow: #4288a8;
 $border: 1px solid rgba(191, 191, 191, 0);
 $items: 7;
 $rows: ceil($items/2);
@@ -33,12 +33,12 @@ $stagger: 180px;
 $outer-margin: 90px;
 $marker-size: 9px;
 /* Colors --------------------- cores de fundo dos cards*/ 
-$steps: #04069C;
-$colors: #04069C,
-#04069C,
-#04069C,
-#04069C;
-$timeline: #04069C;
+$steps: #201436;
+$colors: #180db554,
+#180db554,
+#180db554,
+#180db554;
+$timeline: #180db554;
 /* Calculations */
 $container-height: $rows * ($card-height + $outer-margin) + $stagger;
 $container-width: $card-width*2 + $outer-margin*3;
@@ -198,7 +198,7 @@ $marker-dist: $card-width + $outer-margin/2 - $marker-size/2;
     content: "";
     width: $marker-size;
     height: $marker-size;
-    background-color: #E8BF0C;
+    background-color: #fffefe;
     border-radius: $marker-size;
     box-shadow: 0px 0px 2px 8px $background;
   }
@@ -229,13 +229,13 @@ body {
     font-size: 3rem;
     font-weight: 200;
     margin-bottom: 20px;
-    color: #E8BF0C;
+    color: #ffffff;
       }
   p.leader {
     font-family: 'DM Sans', sans-serif;
     text-align: center;
     max-width: 90%;
-    color: #E8BF0C;
+    color: #ffffff;
     margin: auto;
     margin-bottom: 45px;
   }
@@ -315,7 +315,7 @@ body {
       position: relative;
       display: flex;
       align-items: center;
-      color: #E8BF0C;
+      color: #f8f4fa;
       font-weight: 400;
       .number-box {
         display: inline;
@@ -325,7 +325,7 @@ body {
         font-size: $number-size;
         line-height: $number-size;
         font-weight: 600;
-        background: #04069C;
+        background: #04079c46;
       }
       h2 {
         font-family: 'Arvo', serif;
@@ -351,7 +351,7 @@ body {
       }
     }
     .body {
-      background:#0C0FE8;
+      background:#2b07693f;
       border: $border;
       border-top: 0;
       padding: $inner-margin;
@@ -361,7 +361,7 @@ body {
       p {
         font-family: 'DM Sans', sans-serif;
         font-size: 17px; // TAMANHO DA FONTE DO CARD
-        color: #E8BF0C;
+        color: #fafafa;
         line-height: 18px;
         margin-bottom: $inner-margin;
       }

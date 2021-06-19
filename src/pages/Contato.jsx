@@ -6,7 +6,9 @@ export default class Contato extends Component {
       <div id="contato">
         <div class="card1">
         <h1>Contato</h1>
+
           <div class="card1-back">
+            
             <div class="line-numbers">
               <div>1</div>
               <div>2</div>
