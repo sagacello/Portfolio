@@ -5,6 +5,8 @@ import cv from '../imagens/cursoemvideo2.jpg';
 import i2a2 from '../imagens/i2a2.jpg';
 import astronauta from '../imagens/astronauta.png';
 import trybe from '../imagens/trybe.jpg';
+import back from '../imagens/back.jpg';
+
 
 class Timeline extends Component {
   render() {
@@ -130,7 +132,7 @@ class Timeline extends Component {
                quanto em soft skills e cheguei a conclusão que entrar na trybe foi uma excelente escolha 
                e o caminho a percorrer é extenso.
               </p>
-              <img src="http://placehold.it/1000x500" alt="Graphic" />
+              <img src={back} alt="Graphic" />
             </div>
           </div>
           <div className="demo-card demo-card--step7">
@@ -144,9 +146,10 @@ class Timeline extends Component {
             </div>
             <div className="body">
               <p>
-                Após 7 meses de curso, percebi que sou uma pessoa totalmente diferente 
+                Após 10 meses de curso, percebi que sou uma pessoa totalmente diferente e estou
+                realizado com todas essas novas conquistas!
               </p>
-              <img src="http://placehold.it/1000x500" alt="Graphic" />
+              <img src={back} alt="Graphic" />
             </div>
           </div>
         </div>

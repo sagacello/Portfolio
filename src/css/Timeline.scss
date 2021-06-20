@@ -26,7 +26,7 @@ $items: 7;
 $rows: ceil($items/2);
 /* TAMANHO DO CARDDDD */
 $card-height: 440px;
-$card-width: 440px;
+$card-width: 410px;
 $inner-margin: 15px;
 $number-size: 35px;
 $stagger: 180px;
@@ -224,7 +224,7 @@ body {
   border-top: $border;
   border-bottom: $border;
   h1 {
-    font-family: 'Arvo', serif;
+    font-family: 'Audiowide', cursive;
     text-align: center;
     font-size: 3rem;
     font-weight: 200;

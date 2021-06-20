@@ -67,7 +67,7 @@
 
 .container .card-projetos .face.face1{
   position: relative;
-  background: #04069C;
+  background: #180db5;
   display: flex;
   justify-content: center;
   align-content:center;
@@ -108,8 +108,8 @@
 
 .container .card-projetos .face.face1 .content-projetos h3{
   font-size: 1em;
-  font-family: 'Arvo', serif;
-  color: #E8BF0C;
+  font-family:  'Audiowide', cursive;
+  color: #fffffff8;
   text-align: center;
 }
 
@@ -119,7 +119,7 @@
 
 .container .card-projetos .face.face2{
    position: relative;
-   background: #0C0FE8;
+   background: #180db554;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -140,12 +140,13 @@
   font-size: 10pt;
   margin: 0 ;
   padding: 0;
-  color:#E8BF0C;
+  color:#ffffff; 
+
 }
 
 .container .card-projetos .face.face2 .content-projetos a{
   text-decoration:none;
-  color: #E8BF0C;
+  color: #f3f3f3;
   box-sizing: border-box;
   /* outline : 1px dashed #0C0FE8; */
   padding: 10px;
@@ -155,6 +156,6 @@
 
 .container .card-projetos .face.face2 .content-projetos a:hover{
   /* background: red ; */
-  color: #9C7E00; 
+  color: #0d77b5f8; 
   box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
 }
