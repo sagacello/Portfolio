@@ -6,6 +6,7 @@ import i2a2 from '../imagens/i2a2.jpg';
 import astronauta from '../imagens/astronauta.png';
 import trybe from '../imagens/trybe.jpg';
 import back from '../imagens/back.jpg';
+import tec from '../imagens/tec.png';
 
 
 class Timeline extends Component {
@@ -110,7 +111,7 @@ class Timeline extends Component {
             <div className="body">
               <p>
                 Depois de procurar por um tempo encontrei a Trybe, uma escola de tecnologia com propostas 
-                surpreendentes e inovadoras, e investigando tudo o que era proposto pela escola e
+                surpreendentes e inovadoras, e investigando tudo o que era proposto pela escola
                 tomei a decisão de me inscrever para o processo seletivo.
               </p>
               <img src={trybe} alt="trybe" />
@@ -127,12 +128,11 @@ class Timeline extends Component {
             </div>
             <div className="body">
               <p>
-               Logo iniciei minha jornada na Trybe e 
-               nas primeiras semanas já tinha aprendido diversas coisas, tanto em hard skills 
-               quanto em soft skills e cheguei a conclusão que entrar na trybe foi uma excelente escolha 
-               e o caminho a percorrer é extenso.
+               Iniciei minha jornada na Trybe e 
+               nas primeiras semanas já tinha aprendido muito, tanto em hard skills 
+               quanto em soft skills e foi a melhor esolha que fiz.
               </p>
-              <img src={back} alt="Graphic" />
+              <img style={{ "height": "75%"} } src={tec} alt="tec" />
             </div>
           </div>
           <div className="demo-card demo-card--step7">
