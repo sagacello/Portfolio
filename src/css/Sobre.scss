@@ -17,15 +17,20 @@ a, a:hover {
 }
 
 #pageHeaderTitle {
-	margin: 2rem 0;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 2.5rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 200;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  font-family: 'Audiowide', cursive;
 }
 
 /* Cards */
 .postcard {  
-  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.794);
   border-radius: 10px;
   margin: 0 0 2rem 0;
   overflow: hidden;
@@ -33,7 +38,7 @@ a, a:hover {
   color: #ffffff;
 
 	&.dark {
-		background-color: #18151f;
+		background-color: #18151fd7;
 	}
 	
 	.t-dark {
@@ -60,9 +65,9 @@ a, a:hover {
 
   .postcard__img {
     max-height: 180px;
-    width: 15%;
+    width: 20%;
     object-fit: cover;
-    position: relative; // mudar aqui apra relative
+    position: absolute; // mudar aqui apra relative
   }
 
 
@@ -78,27 +83,26 @@ a, a:hover {
 
   .postcard__text {
     padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
     position: relative; // mudar aqui apra relative
-
-
+    margin-left: 12rem;
   }
 
   .postcard__preview-txt {
     overflow: hidden;
     text-overflow: ellipsis;
     text-align: justify;
-    height: 100%;
-    
+    height: 50%;
+    width: 80%;
+
   }
 
   .postcard__tagbox {
     display: flex;
     flex-flow: row wrap;
-    font-size: 14px;
-    margin: 20px 0 0 0;
-		padding: 0;
+    font-size: 10px;
+    margin: 10px 0 0 0;
+		padding: 0px;
+    padding-top: 2%;
     justify-content: center;
 
     .tag__item {
@@ -107,7 +111,6 @@ a, a:hover {
       border-radius: 3px;
       padding: 2.5px 10px;
       margin: 0 5px 5px 0;
-      cursor: default;
       user-select: none;
       transition: background-color 0.3s;
 
@@ -192,7 +195,7 @@ a, a:hover {
 }
 @media screen and (min-width: 1024px){
 		.postcard__text {
-      padding: 2rem 3.5rem;
+      padding: 1rem 3.5rem;
     }
 		
 		.postcard__text:before {
@@ -210,31 +213,9 @@ a, a:hover {
 			background: #18151f;
 		}
   }
-	.postcard.light {
-		.postcard__text:before {
-			background: #e1e5ea;
-		}
-  }
+	
 }
 
-/* COLORS */
-.postcard .postcard__tagbox .green.play:hover {
-	background: $main-green;
-	color: black;
-}
-.green .postcard__title:hover {
-	color: $main-green;
-}
-.green .postcard__bar {
-	background-color: $main-green;
-}
-.green::before {
-	background-image: linear-gradient(
-		-30deg,
-		$main-green-rgb-015,
-		transparent 50%
-	);
-}
 .green:nth-child(2n)::before {
 	background-image: linear-gradient(30deg, $main-green-rgb-015, transparent 50%);
 }

@@ -34,11 +34,11 @@ $outer-margin: 90px;
 $marker-size: 9px;
 /* Colors --------------------- cores de fundo dos cards*/ 
 $steps: #201436;
-$colors: #180db554,
-#180db554,
-#180db554,
-#180db554;
-$timeline: #180db554;
+$colors: #412b5352,
+#412b5352,
+#412b5352,
+#412b5352;
+$timeline: #412b5352;
 /* Calculations */
 $container-height: $rows * ($card-height + $outer-margin) + $stagger;
 $container-width: $card-width*2 + $outer-margin*3;

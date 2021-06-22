@@ -67,7 +67,7 @@
 
 .container .card-projetos .face.face1{
   position: relative;
-  background: #180db5;
+  background: #18151f;
   display: flex;
   justify-content: center;
   align-content:center;
@@ -119,7 +119,7 @@
 
 .container .card-projetos .face.face2{
    position: relative;
-   background: #180db554;
+   background: #2c253b62;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -156,6 +156,6 @@
 
 .container .card-projetos .face.face2 .content-projetos a:hover{
   /* background: red ; */
-  color: #0d77b5f8; 
+  color: #5d0e8bf8; 
   box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
 }
