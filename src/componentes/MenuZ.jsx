@@ -55,9 +55,9 @@ const MenuZ = (props) => {
     const vaiparala = (caminho) => {
       switch (caminho) {
         case 'Linkedin':
-          return (window.open('https://www.linkedin.com/feed/', '_blank'));
+          return (window.open('https://www.linkedin.com/in/marcelo-viola/', '_blank'));
         case 'Github':
-          return (window.open('https://github.com/', '_blank'));
+          return (window.open('https://github.com/sagacello', '_blank'));
         default:
           return window.location.href = caminho;
       }
