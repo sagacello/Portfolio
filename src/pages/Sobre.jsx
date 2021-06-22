@@ -5,7 +5,7 @@ import foto from '../imagens/foto1.jpg';
 export default class Sobre extends Component {
   render() {
     return (
-      <div>
+      <div id="sobre">
         <div class="dark">
           <main class="container py-4">
             <div class="h1 text-center" id="pageHeaderTitle">
